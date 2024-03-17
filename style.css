@@ -1,0 +1,73 @@
+@font-face {
+  font-family: now;
+  src: url(./Heading-Now-Variable.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.page1 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  padding: 0 30px;
+  overflow: hidden;
+}
+
+.page1 .nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  border-bottom: 2px solid white;
+}
+
+.page1 .nav .nav-2 {
+  display: flex;
+  gap: 55px;
+}
+
+.page1 .nav .nav-2 .nav-2-2 {
+  margin-left: 50px;
+}
+
+.page1 h2 {
+  font-size: 450px;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+  font-stretch: 250%;
+  font-weight: 999;
+  font-family: now;
+}
+
+.page2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(55, 55, 55);
+}
+
+.page3 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(124, 124, 124);
+}
+
+h3,
+h1 {
+  text-transform: uppercase;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
