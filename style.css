@@ -17,6 +17,23 @@ body {
   width: 100%;
 }
 
+.loader {
+  height: 100%;
+  width: 100%;
+  background-color: azure;
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loader h1 {
+  font-size: 100px;
+  color: black;
+  font-style: "Poppins", sans-serif;
+  font-weight: 1000;
+  font-stretch: 2500%;
+}
 .page1 {
   height: 100%;
   width: 100%;
